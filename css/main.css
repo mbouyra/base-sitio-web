@@ -101,11 +101,13 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-*{
-font-family: 'Roboto Mono', monospace;
+.custom-font-heading{
+font-family: 'Montserrat Subrayada', sans-serif;
 }
 
-
+.custom-font-copy {
+font-family: 'Montserrat', sans-serif;
+}
 
 
 
