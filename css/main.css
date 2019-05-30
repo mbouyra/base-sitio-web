@@ -109,10 +109,17 @@ img{
   width: 100%;
   max-width: 100%;
   margin: 12px;
+}
+
+
+.img-gray{
+  width: 100%;
+  max-width: 100%;
+  margin: 12px;
   transition: 1s ease;
 }
 
-img:hover{
+.img-gray:hover{
   filter: grayscale(100%);
 }
 
