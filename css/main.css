@@ -105,43 +105,16 @@ textarea {
 
 body { font-family: sans-serif; }
 
-/* ---- grid ---- */
-
-.grid {
-  background: #EEE;
+img{
+  width: 100%;
   max-width: 100%;
+  margin: 12px;
+  transition: 1s ease;
 }
 
-/* clearfix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
+img:hover{
+  filter: grayscale(100%);
 }
-
-/* ---- grid-item ---- */
-
-.grid-sizer,
-.grid-item {
-  width: 30%;
-}
-
-.grid-item {
-  height: 120px;
-  float: left;
-  background: #D26;
-  border: 2px solid #333;
-  border-color: hsla(0, 0%, 0%, 0.5);
-  border-radius: 5px;
-}
-
-.grid-item--width2 { width:  70%; }
-.grid-item--width3 { width:  80%; }
-
-.grid-item--height2 { height: 200px; }
-.grid-item--height3 { height: 260px; }
-.grid-item--height4 { height: 360px; }
-
 
 
 
